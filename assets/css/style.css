@@ -1,0 +1,124 @@
+html {
+	/* font-size: 62.5%; */
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	/* font-size: 1.6rem; */
+	font-family: "Roboto", sans-serif;
+}
+
+/* NavBar */
+.fondo-navbar {
+	background-color: #28a745;
+}
+
+a img {
+	width: 9rem;
+	height: 2rem;
+}
+
+/* Section-cards */
+.card-container{ 
+    box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.395);
+    transition: .3s ease;
+}
+.card-container:hover {
+    transform: scale(1.03);
+	box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.395);
+}
+
+@media (min-width: 0px) {
+	.card-container {
+		width: 20rem;
+	}
+}
+@media (min-width: 1200px) {
+	.card-container {
+		width: 22rem;
+	}
+}
+
+.img-container {
+	height: 15rem;
+}
+
+.card-title,
+.card-text {
+	color: #212529;
+	font-size: 20px;
+}
+
+.card-text { 
+	font-weight: 300;
+}
+
+.tienda-direccion {
+	color: #707070;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.tienda-direccion p {
+	margin: 0;
+}
+
+.tienda-direccion .mapa {
+	text-decoration: none;
+	color: #707070;
+	font-size: 13px;
+}
+
+.tienda-direccion .mapa:hover { 
+    text-decoration: underline;
+}
+
+.price {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+
+.price p {
+	font-weight: 300;
+	margin: 0;
+	text-decoration: line-through;
+}
+
+.price span {
+	color: #28a745;
+	font-weight: 500;
+	margin: 0 0.7rem;
+	font-size: 1.3rem;
+}
+
+/* section-formulary */
+section.formulary-container {
+	background-color: #28a745;
+}
+
+.bg-form {
+	background-color: #28a745;
+}
+
+label {
+	color: #707070;
+}
+
+
+/* section-footer */
+footer img {
+	width: 9rem;
+	margin: 1.5rem 0 0.5rem 0;
+}
+
+footer p {
+	color: #707070;
+	font-weight: 300;
+}
